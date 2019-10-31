@@ -28,7 +28,7 @@ h1 {
   font-size: 0; }
 
 .header {
-  height: 765px;
+  height: 100vh;
   background-image: url("../images/header.jpg");
   background-size: cover;
   background-position: center;
