@@ -218,6 +218,14 @@ h1 {
        object-fit: cover;
     -o-object-position: center;
        object-position: center; }
+    .photos__img--wide-right:first-child {
+      width: calc(33% - 10px); }
+    .photos__img--wide-right:last-child {
+      width: calc(67% - 10px); }
+    .photos__img--wide-left:first-child {
+      width: calc(67% - 10px); }
+    .photos__img--wide-left:last-child {
+      width: calc(33% - 10px); }
 
 .gallery__caption {
   margin: 12px 0 35px; }
