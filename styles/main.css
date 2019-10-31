@@ -85,7 +85,7 @@ h1 {
     list-style: none; }
   .nav__item {
     padding: 7px 20px;
-    margin: 0 22.5px;
+    margin: 0 22px;
     border-radius: 10px; }
     .nav__item--active {
       background-color: #d5c5aa; }
@@ -218,14 +218,6 @@ h1 {
        object-fit: cover;
     -o-object-position: center;
        object-position: center; }
-  .photos--wide-right .photos__img:first-child {
-    width: calc(33% - 10px); }
-  .photos--wide-right .photos__img:last-child {
-    width: calc(67% - 10px); }
-  .photos--wide-left .photos__img:first-child {
-    width: calc(67% - 10px); }
-  .photos--wide-left .photos__img:last-child {
-    width: calc(33% - 10px); }
 
 .gallery__caption {
   margin: 12px 0 35px; }
